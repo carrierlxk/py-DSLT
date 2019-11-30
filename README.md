@@ -1,6 +1,6 @@
 :tada:
 
-Pytorch version is release:
+Pytorch version is released:
 --
 Requirement
 --
