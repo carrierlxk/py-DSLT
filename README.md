@@ -4,7 +4,7 @@ Pytorch version is released:
 --
 Requirement
 --
-* Python 2.7 (I use Anaconda 2.* here. If you use Python3, you may get the very different results!)
+* Python 2.7 (The performance is inferior using Python 3)
 * Python-opencv
 * PyTorch 0.40
 * other common packages such as numpy, etc
