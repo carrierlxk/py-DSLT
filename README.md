@@ -45,6 +45,7 @@ Move $ILSVRC2015_Root/Annotations/VID/val into $ILSVRC2015_Root/Annotations/VID/
 * Change self.seq_base_path to the path storing your test sequences (OTB format, otherwise you need to revise the function load_sequence() in Tracking_Utils.py
 * Change self.net to indicate whcih model you want for evaluation (by default, use the last one), and I've uploaded a trained model SiamFC_50_model.pth in this rep (located in $SiamFC-PyTorch/Train/model/)
 
+This work reused partial code from https://github.com/HengLan/SiamFC-PyTorch
 If you find the code useful, please cite
 # citation
 @inproceedings{lu2018deep,
