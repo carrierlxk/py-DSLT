@@ -46,17 +46,16 @@ Move $ILSVRC2015_Root/Annotations/VID/val into $ILSVRC2015_Root/Annotations/VID/
 * Change self.net to indicate whcih model you want for evaluation (by default, use the last one), and I've uploaded a trained model SiamFC_50_model.pth in this rep (located in $SiamFC-PyTorch/Train/model/)
 
 This work reused partial code from https://github.com/HengLan/SiamFC-PyTorch
-If you find the code useful, please cite
-# citation
-@inproceedings{lu2018deep,
 
-  title={Deep Regression Tracking with Shrinkage Loss},
-  
-  author={Lu, Xiankai and Ma, Chao and Ni, Bingbing and Yang, Xiaokang and Reid, Ian and Yang, Ming-Hsuan},
-  
-  booktitle={Proceedings of the European Conference on Computer Vision (ECCV)},
-  
-  pages={353--369},
-  
+## citation
+
+If you find the code useful, please cite
+```
+@inproceedings{lu2018deep,  
+  title={Deep Regression Tracking with Shrinkage Loss},   
+  author={Lu, Xiankai and Ma, Chao and Ni, Bingbing and Yang, Xiaokang and Reid, Ian and Yang, Ming-Hsuan},  
+  booktitle={Proceedings of the European Conference on Computer Vision (ECCV)},  
+  pages={353--369},    
   year={2018}
 }
+```
